@@ -1,0 +1,32 @@
+[
+    {
+    "id": 1,
+    "name": "Experiment 1: Chemical Reaction",
+    "description": "Study of chemical reactions and properties."
+    },
+    {
+    "id": 2,
+    "name": "Experiment 2: Physics Simulation",
+    "description": "Simulation of various physics phenomena and detailed analysis of physical systems over a long duration."
+    },
+    {
+    "id": 3,
+    "name": "Experiment 3: Biology Study",
+    "description": "Observation and study of biological organisms."
+    },
+    {
+    "id": 4,
+    "name": "Experiment 4: Quantum Mechanics",
+    "description": "Exploration of quantum mechanical systems, including their probabilistic behavior and experimental verifications."
+    },
+    {
+    "id": 5,
+    "name": "Experiment 5: AI Model Training",
+    "description": "Training of machine learning models using different datasets and optimization techniques."
+    },
+    {
+    "id": 6,
+    "name": "Experiment 6: Robotics Programming",
+    "description": "Programming and controlling robots using modern techniques and algorithms for motion planning and manipulation."
+    }
+]

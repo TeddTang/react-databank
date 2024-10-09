@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$black: #333333;
+$gray: #DCDCDC;
+$placeholder-gray: #B0B0B0; // 設定 placeholder 的字體顏色
+$font-family: 'Open Sans', sans-serif; // 使用 Open Sans 字體
+
+* {
+    margin: 0;
+}
+
+html {
+    font-family: $font-family;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+// 定義一個 mixin 來處理 flex 布局
+@mixin flex($align: center, $justify: center) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+  // 定義常用的 flex 布局變體
+@mixin flex-column($align: center, $justify: center) {
+    display: flex;
+    flex-direction: column;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; // 設定容器最小高度為整個視窗高度
+}
+
+.navbar {
+    @include flex(center, space-between);
+    padding: 0 36px;
+    background-color: white;
+    border-bottom: 1px solid $gray;
+    height: 56px;
+}
+
+.main_content {
+    flex: 1; // 主體內容填滿剩餘空間
+}
+
+.searching {
+    &_area {
+        padding: 0px 40px;
+        margin-top: 24px;
+    }
+    &_result {
+        background-color: white;
+        padding: 20px 24px;
+        border: 1px solid $gray;
+        border-radius: 3px;
+    }
+    &_title {
+        font-family: $font-family;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    &_table {
+        color: $black;
+        width: 100%;
+        table-layout: fixed; // 設定表格佈局模式
+        border-collapse: collapse; // 使用 `separate` 來支援圓角效果
+        margin: 0px;
+        border: none;
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid $gray; // 移除單元格的預設邊框
+            word-wrap: break-word;
+            word-break: break-word;
+            white-space: normal;
+        }
+
+        .id-col {
+            width: 5%; // 設定 ID 欄寬度
+        }
+
+        .name-col {
+            width: 40%; // 設定 Experiment Name 欄寬度
+        }
+
+        .desc-col {
+            width: 50%; // 設定 Description 欄寬度
+        }
+
+        th {
+            background-color: #ececec;
+        }
+
+        tbody tr:hover {
+            background-color: #fafafa;
+        }
+
+        tbody {
+            .id-col {
+                border-left: 0px;
+            }
+            .desc-col {
+                border-right: 0px;
+            }
+            .empty {
+                border: 0px;
+            }
+            td:nth-last-child(1), td:nth-last-child(2), td:nth-last-child(3){
+                border-bottom: 0px;
+            }
+        }
+
+        th {
+            border-top: 0px;
+        }
+
+        thead {
+            th:first-child {
+                border-left: 0px;
+            }
+            th:last-child {
+                border-right: 0px;
+            }
+        }
+    }
+}
+
+.table_radius {
+    margin-top: 20px;
+    border: 1px solid $gray;
+    border-radius: 3px;
+
+}
+
+.page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end; // 將分頁區域放置於表格右下角
+    align-items: center;
+    gap: 10px;
+    &_btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    
+        &:hover {
+        background-color: #0056b3;
+        }
+    
+        &:disabled {
+        background-color: #d6d6d6;
+        cursor: not-allowed;
+        }
+    }
+    &_info {
+        font-family: $font-family;
+        color: #333;
+    }
+}
+
+// 自定義 input 樣式
+.input_style {
+    width: 360px;
+    height: 48px;
+    padding: 0px 16px;
+    border: 1px solid $gray;
+    border-radius: 3px;
+    font-family: $font-family; // 設定字體樣式
+    font-size: 16px;
+    color: #333;
+
+    // 定義 placeholder 樣式
+    &::placeholder {
+        color: $placeholder-gray; // 更改 placeholder 字體顏色
+        font-family: $font-family; // 設定 placeholder 的字型
+        font-size: 14px; // 設定 placeholder 字體大小
+    }
+
+    // 當 input 處於 focus 狀態時，移除邊框
+    &:focus {
+        outline: none; // 移除預設的 outline 樣式
+    }
+}
+
+
+// Footer 樣式設定
+.footer {
+    // background-color: #333;
+    color: $black;
+    text-align: center;
+    padding: 20px;
+    font-family: $font-family;
+    border-top: 1px solid $gray;
+    margin: 0px 40px;
+    margin-top: 40px;
+}
