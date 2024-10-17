@@ -1,32 +1,52 @@
 [
     {
     "id": 1,
-    "name": "Experiment 1: Chemical Reaction",
-    "description": "Study of chemical reactions and properties."
+    "name": "Experiment 1: Immunohistochemistry (IHC)",
+    "description": "Stains tissues to detect specific proteins for localization studies."
     },
     {
     "id": 2,
-    "name": "Experiment 2: Physics Simulation",
-    "description": "Simulation of various physics phenomena and detailed analysis of physical systems over a long duration."
+    "name": "Experiment 2: Histology",
+    "description": "Prepares and stains tissues for microscopic examination of structure."
     },
     {
     "id": 3,
-    "name": "Experiment 3: Biology Study",
-    "description": "Observation and study of biological organisms."
+    "name": "Experiment 3: In vitro tissue culture",
+    "description": "Grows tissues outside the body to study cell behavior."
     },
     {
     "id": 4,
-    "name": "Experiment 4: Quantum Mechanics",
-    "description": "Exploration of quantum mechanical systems, including their probabilistic behavior and experimental verifications."
+    "name": "Experiment 4: RNA Sequencing of Tissues",
+    "description": "Analyzes gene expression by sequencing RNA from tissues."
     },
     {
     "id": 5,
-    "name": "Experiment 5: AI Model Training",
-    "description": "Training of machine learning models using different datasets and optimization techniques."
+    "name": "Experiment 5: Tissue Microarray (TMA)",
+    "description": "Embeds multiple tissue samples for high-throughput analysis."
     },
     {
     "id": 6,
-    "name": "Experiment 6: Robotics Programming",
-    "description": "Programming and controlling robots using modern techniques and algorithms for motion planning and manipulation."
+    "name": "Experiment 6: Cryosectioning",
+    "description": "Freezes tissues and cuts thin sections for imaging and analysis."
+    },
+    {
+    "id": 7,
+    "name": "Experiment 7: Ex vivo perfusion",
+    "description": "Maintains tissues with continuous flow to study function outside the body."
+    },
+    {
+    "id": 8,
+    "name": "Experiment 8: Tissue Decellularization",
+    "description": "Removes cells, leaving the scaffold for tissue engineering."
+    },
+    {
+    "id": 9,
+    "name": "Experiment 9: Organotypic Tissue Slices",
+    "description": "Cultures tissue slices to study complex interactions."
+    },
+    {
+    "id": 10,
+    "name": "Experiment 10: Biomechanical testing of tissues",
+    "description": "Measures mechanical properties like stiffness of tissues."
     }
 ]

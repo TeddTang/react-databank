@@ -14,7 +14,7 @@ const [currentPage, setCurrentPage] = useState(1);
 const [experiments, setExperiments] = useState([]);
 
 // 每頁顯示的最大列數
-const rowsPerPage = 5;
+const rowsPerPage = 10;
 
 // 使用 useEffect 來載入 JSON 檔案中的資料
 useEffect(() => {
