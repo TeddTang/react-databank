@@ -1,52 +1,86 @@
 [
     {
-    "id": 1,
-    "name": "Experiment 1: Immunohistochemistry (IHC)",
-    "description": "Stains tissues to detect specific proteins for localization studies."
+    "tissue_id": "XXXX001",
+    "tissue_origin": "Nasopharnyx",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Head and Neck cancer",
+    "tissue_availability": "Yes"
     },
     {
-    "id": 2,
-    "name": "Experiment 2: Histology",
-    "description": "Prepares and stains tissues for microscopic examination of structure."
+    "tissue_id": "XXXX002",
+    "tissue_origin": "Breast",
+    "tissue_type": "Connective",
+    "associated_disease": "Breast cancer",
+    "tissue_availability": "Yes"
     },
     {
-    "id": 3,
-    "name": "Experiment 3: In vitro tissue culture",
-    "description": "Grows tissues outside the body to study cell behavior."
+    "tissue_id": "XXXX003",
+    "tissue_origin": "Breast",
+    "tissue_type": "Connective",
+    "associated_disease": "Breast cancer",
+    "tissue_availability": "No"
     },
     {
-    "id": 4,
-    "name": "Experiment 4: RNA Sequencing of Tissues",
-    "description": "Analyzes gene expression by sequencing RNA from tissues."
+    "tissue_id": "XXXX004",
+    "tissue_origin": "Breast",
+    "tissue_type": "Connective",
+    "associated_disease": "Breast cancer",
+    "tissue_availability": "Yes"
     },
     {
-    "id": 5,
-    "name": "Experiment 5: Tissue Microarray (TMA)",
-    "description": "Embeds multiple tissue samples for high-throughput analysis."
+    "tissue_id": "XXXX005",
+    "tissue_origin": "Nasopharnyx",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Head and Neck cancer",
+    "tissue_availability": "No"
     },
     {
-    "id": 6,
-    "name": "Experiment 6: Cryosectioning",
-    "description": "Freezes tissues and cuts thin sections for imaging and analysis."
+    "tissue_id": "XXXX006",
+    "tissue_origin": "Nasopharnyx",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Head and Neck cancer",
+    "tissue_availability": "Yes"
     },
     {
-    "id": 7,
-    "name": "Experiment 7: Ex vivo perfusion",
-    "description": "Maintains tissues with continuous flow to study function outside the body."
+    "tissue_id": "XXXX007",
+    "tissue_origin": "Colon",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Colon cancer",
+    "tissue_availability": "No"
     },
     {
-    "id": 8,
-    "name": "Experiment 8: Tissue Decellularization",
-    "description": "Removes cells, leaving the scaffold for tissue engineering."
+    "tissue_id": "XXXX008",
+    "tissue_origin": "Colon",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Colon cancer",
+    "tissue_availability": "No"
     },
     {
-    "id": 9,
-    "name": "Experiment 9: Organotypic Tissue Slices",
-    "description": "Cultures tissue slices to study complex interactions."
+    "tissue_id": "XXXX009",
+    "tissue_origin": "Colon",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Colon cancer",
+    "tissue_availability": "No"
     },
     {
-    "id": 10,
-    "name": "Experiment 10: Biomechanical testing of tissues",
-    "description": "Measures mechanical properties like stiffness of tissues."
+    "tissue_id": "XXXX010",
+    "tissue_origin": "Breast",
+    "tissue_type": "Connective",
+    "associated_disease": "Breast cancer",
+    "tissue_availability": "No"
+    },
+    {
+    "tissue_id": "XXXX011",
+    "tissue_origin": "Colon",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Colon cancer",
+    "tissue_availability": "No"
+    },
+    {
+    "tissue_id": "XXXX012",
+    "tissue_origin": "Nasopharnyx",
+    "tissue_type": "Epithelial",
+    "associated_disease": "Head and Neck cancer",
+    "tissue_availability": "Yes"
     }
 ]
