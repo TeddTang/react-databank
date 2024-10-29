@@ -43,8 +43,13 @@ function Home() {
 
     // 搜尋後過濾的資料
     const filteredList = experiments.filter((experiment) =>
-        experiment.tissue_id.toLowerCase().includes(searchTerm.toLowerCase())
+        experiment.tissue_id.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        experiment.tissue_origin.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        experiment.tissue_type.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        experiment.associated_disease.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        experiment.tissue_availability.toLowerCase().includes(searchTerm.toLowerCase())
     );
+
 
     // 計算總頁數
     const totalPages = Math.ceil(filteredList.length / rowsPerPage);
